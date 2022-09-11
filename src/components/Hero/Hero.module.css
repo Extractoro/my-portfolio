@@ -1,0 +1,106 @@
+.hero {
+  background-color: #222a36;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.hero__info {
+  margin-top: 100px;
+  padding-bottom: 120px;
+}
+
+.hero__name {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1.2;
+}
+
+.hero__position {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 10px;
+}
+
+.hero__buttons {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.hero__email {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 85px;
+  padding: 13px 40px;
+  text-decoration: none;
+  color: #fff;
+  background: #676cdb;
+  align-content: center;
+  margin-right: 15px;
+  transition: all 0.3s ease-out;
+}
+
+.hero__email:hover {
+  background-color: #434689;
+}
+
+.hero__email:focus {
+  position: relative;
+  background-color: #434689;
+  top: 2px;
+}
+
+.hero__email-icon {
+  margin-right: 7px;
+  padding-top: 4px;
+}
+
+.hero__download {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  text-decoration-line: underline;
+  color: #ffffff;
+  display: flex;
+  transition: all 0.2s ease-out;
+}
+
+.hero__download:hover {
+  color: #676cdb;
+}
+
+.hero__download:focus {
+  position: relative;
+  color: #676cdb;
+  top: 2px;
+}
+
+.hero__download-icon {
+  margin-right: 7px;
+  margin-top: 2px;
+}
+
+.circle {
+  position: absolute;
+  right: -210px;
+  bottom: -100px;
+  background: #676cdb;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
