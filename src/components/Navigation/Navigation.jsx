@@ -7,7 +7,7 @@ const Navigation = () => {
         Home
       </a>
       <a href="/#" className={s["header__link"]}>
-        About
+        About me
       </a>
       <a href="/#" className={s["header__link"]}>
         Technologies
