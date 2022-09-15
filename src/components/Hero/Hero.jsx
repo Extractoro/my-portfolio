@@ -38,6 +38,8 @@ const Hero = () => {
           </div>
         </div>
         <div className={s["circle"]}></div>
+        <div className={s["circle1"]}></div>
+        <div className={s["circle2"]}></div>
       </Container>
     </div>
   );

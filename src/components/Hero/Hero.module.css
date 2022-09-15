@@ -98,9 +98,29 @@
 .circle {
   position: absolute;
   right: -210px;
-  bottom: -100px;
+  bottom: -80px;
   background: #676cdb;
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+}
+
+.circle1 {
+  position: absolute;
+  right: 60px;
+  bottom: -30px;
+  background: #565cc4;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.circle2 {
+  position: absolute;
+  right: -180px;
+  bottom: 190px;
+  background: #565cc4;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
 }
