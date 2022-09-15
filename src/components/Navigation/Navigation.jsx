@@ -3,10 +3,10 @@ import s from "./Navigation.module.css";
 const Navigation = () => {
   return (
     <header className={s["header"]}>
-      <a href="/#" className={s["header__link"]}>
+      <a href="#home" className={s["header__link"]}>
         Home
       </a>
-      <a href="/#" className={s["header__link"]}>
+      <a href="#about" className={s["header__link"]}>
         About me
       </a>
       <a href="/#" className={s["header__link"]}>

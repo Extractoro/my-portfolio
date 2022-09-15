@@ -8,7 +8,7 @@ import { MdOutlineFeedback } from "react-icons/md";
 const About = () => {
   const clases = s["react-tabs__tab"];
   return (
-    <div className={s["about"]}>
+    <div className={s["about"]} id="about">
       <Container>
         <div className={s["about__container"]}>
           <p className={s["about__suptitle"]}>My intro</p>
@@ -44,8 +44,8 @@ const About = () => {
               }
             >
               <h2 className={s["tabs__h2"]}>
-                Unfortunately, I have no work experience, but this is not for
-                long and I am ready to develop and improve my skills.
+                😥 | Unfortunately, I have no work experience, but this is not
+                for long and I am ready to develop and improve my skills.
               </h2>
             </TabPanel>
             <TabPanel
@@ -55,7 +55,10 @@ const About = () => {
                 ]
               }
             >
-              <h2 className={s["tabs__h2"]}>Any content 2</h2>
+              <h2 className={s["tabs__h2"]}>
+                📈 | I have three team and one individual project. They show the
+                technologies that I used. You can find them below.
+              </h2>
             </TabPanel>
             <TabPanel
               className={
@@ -64,7 +67,10 @@ const About = () => {
                 ]
               }
             >
-              <h2 className={s["tabs__h2"]}>Any content 3</h2>
+              <h2 className={s["tabs__h2"]}>
+                📩 | There are many social networks where you can write to me. I
+                am online 24/7. They are listed below.
+              </h2>
             </TabPanel>
           </Tabs>
         </div>

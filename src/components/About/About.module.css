@@ -73,8 +73,13 @@
   left: 15px;
 }
 
+.react-tabs__tab--selected {
+  border: 2px solid red;
+}
+
 .tabs__h2 {
   width: 300px;
+  font-size: 29px;
 }
 
 .tab__icon {

@@ -6,7 +6,7 @@ import { AiOutlineMail, AiOutlineDownload } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <div className={s["hero"]}>
+    <div className={s["hero"]} id="home">
       <Container>
         <Navigation />
         <div className={s["hero__info"]}>
