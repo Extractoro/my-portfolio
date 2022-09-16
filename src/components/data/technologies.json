@@ -1,0 +1,18 @@
+{
+  "hardskills": [
+    { "name": "HTML5", "level": "Advanced" },
+    { "name": "CSS3", "level": "Intermediate" },
+    { "name": "GIT", "level": "Intermediate" },
+    { "name": "JavaScript", "level": "Intermediate" },
+    { "name": "React.js", "level": "Intermediate" },
+    { "name": "Node.js", "level": "Basic" }
+  ],
+  "softskills": [
+    "Communicative",
+    "Teamwork",
+    "Attentive",
+    "Energetic",
+    "Perceptive",
+    "Versatile"
+  ]
+}
