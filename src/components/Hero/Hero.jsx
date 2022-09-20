@@ -1,4 +1,3 @@
-import Navigation from "../Navigation/Navigation";
 import s from "./Hero.module.css";
 import Container from "../Container/Container";
 import pdf from "../../files/resume.pdf";
@@ -8,7 +7,6 @@ const Hero = () => {
   return (
     <div className={s["hero"]} id="home">
       <Container>
-        <Navigation />
         <div className={s["hero__info"]}>
           <h1 className={s["hero__name"]}>
             Hello!

@@ -21,14 +21,24 @@ const Technologies = () => {
                 </h3>
                 <ul className={s["technologies__hardskills__list"]}>
                   {hardskills.map(({ name, level }) => (
-                    <li
-                      className={s["technologies__hardskills__item"]}
-                      key={nanoid()}
-                      id={nanoid()}
-                    >
-                      <h3>{name}</h3>
-                      <h5>{level}</h5>
-                    </li>
+                    <>
+                      <li
+                        className={s["technologies__hardskills__item"]}
+                        key={nanoid()}
+                        id={nanoid()}
+                      >
+                        <h3
+                          className={s["technologies__hardskills__item-title"]}
+                        >
+                          {name}
+                        </h3>
+                      </li>
+                      <h5
+                        className={s["technologies__hardskills__item-suptitle"]}
+                      >
+                        {level}
+                      </h5>
+                    </>
                   ))}
                 </ul>
               </div>
@@ -45,7 +55,9 @@ const Technologies = () => {
                       key={nanoid()}
                       id={nanoid()}
                     >
-                      <h3>{name}</h3>
+                      <h3 className={s["technologies__softskills__item-title"]}>
+                        {name}
+                      </h3>
                     </li>
                   ))}
                 </ul>

@@ -79,7 +79,8 @@
 
 .tabs__h2 {
   width: 300px;
-  font-size: 29px;
+  font-family: "Poppins";
+  font-size: 32px;
 }
 
 .tab__icon {

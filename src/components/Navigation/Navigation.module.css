@@ -2,12 +2,19 @@
   font-family: "Poppins", sans-serif;
   padding-top: 18px;
   position: fixed;
+  background-color: #222a36;
+  height: 50px;
+  width: 1000px;
+  border-radius: 10px;
   z-index: 999;
+  display: flex;
+  justify-content: center;
 }
 
 .navigation__link {
+  display: flex;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 19px;
   line-height: 1.5;
   text-decoration: none;
   color: #fff;
@@ -18,11 +25,16 @@
 .navigation__link:hover {
   color: #676cdb;
   padding-bottom: 5px;
-  border-bottom: 1px solid #676cdb;
+  border-bottom: 3px solid #676cdb;
 }
 
 .navigation__link:focus {
   position: relative;
   color: #676cdb;
   top: 2px;
+}
+
+.navigation-span {
+  margin-right: 10px;
+  padding-top: 3px;
 }
